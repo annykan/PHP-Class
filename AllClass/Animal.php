@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 //1. 定義 Animal 類別
 //2. 屬性 position 可被繼承
@@ -8,7 +8,7 @@
 
 class Animal
 {
-    private $animalType;
+    private $animalType = "default animal Type";//若沒有呼叫父類別的建構子,會印出這個
     protected $position;
 
     public function __construct($animalTypeFromOut) {
